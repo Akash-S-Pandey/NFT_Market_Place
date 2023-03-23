@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { ethers } from 'ethers';
+import "../components/Wallet.css"
 
 function WalletBalance() {
 
@@ -15,7 +16,7 @@ function WalletBalance() {
     return (
       <div className="card">
         <div className="card-body">
-          <h5 className="card-title">Your Balance: {balance}</h5>
+          <h5 className="card-title">Your Balance: {balance} ETH</h5>
           <button className="btn btn-success" onClick={() => getBalance()}>Show My Balance</button>
         </div>
       </div>

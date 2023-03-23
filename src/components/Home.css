@@ -1,0 +1,15 @@
+body{
+    /* background-image: linear-gradient(to right, #00b09b, #96c93d); */
+    /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    padding-bottom: 8px;
+    
+}

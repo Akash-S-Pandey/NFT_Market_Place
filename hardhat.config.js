@@ -24,7 +24,8 @@ module.exports = {
   networks: {
     matic: {
       url: "https://polygon-mumbai.g.alchemy.com/v2/YOUR_APP",
-      accounts: ["MATIC_PRIVATE_KEY"]
+      // accounts: ["MATIC_PRIVATE_KEY"]
+      // accounts: [process.env.privateKey]
     }
   },
 };

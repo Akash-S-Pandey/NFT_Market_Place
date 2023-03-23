@@ -1,0 +1,26 @@
+
+.card{
+    margin-bottom: 18px;
+    border: none;
+    box-sizing: border-box;
+
+}
+.card-body{
+    background-color:darkcyan;
+    
+    
+}
+
+.btn{
+    border: none;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    background-color: blue;
+
+}
+
+h5{
+    color: white;
+}
